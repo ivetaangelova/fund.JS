@@ -2,8 +2,6 @@ function solve(lostFightCount, helmetPrice, swordPrice, shieldPrice, armorPrice)
     let expenses = 0;
     let brokedShieldCounter = 0;
     let shieldAdded = false;
-
-
     // Every second lost game, his helmet is broken.----
     // • Every third lost game, his sword is broken.----
     // • When both his sword and helmet are broken in the same lost fight, his shield also breaks.---
