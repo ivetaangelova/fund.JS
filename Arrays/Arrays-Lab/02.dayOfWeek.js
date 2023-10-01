@@ -3,7 +3,7 @@ function solve (num){
         'Monday',
         `Tuesday`,
         `Wednesday`,
-        `Tursday`,
+        `Thursday`,
         `Friday`,
         `Saturday`,
         `Sunday`
