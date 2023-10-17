@@ -16,4 +16,3 @@ function resultFactorialDevision(num1, num2) {
 }
 resultFactorialDevision(5, 2);
 resultFactorialDevision(6, 2);
-resultFactorialDevision(10, 2);
