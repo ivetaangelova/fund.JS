@@ -6,9 +6,9 @@
 //  elements, separated by space.
 // On the second line, print the last k elements, separated by space.
 
-function printFirstAndLastKElements(inputArray) {
-    const k = inputArray[0];
-    const numbers = inputArray.slice(1);
+function printFirstAndLastKElements(arr) {
+    const k = arr[0];
+    const numbers = arr.slice(1);
 
     const firstK = numbers.slice(0, k);
     const lastK = numbers.slice(-k);
