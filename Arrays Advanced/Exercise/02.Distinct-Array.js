@@ -1,11 +1,10 @@
-function distinctArr (arr){
-  let withoutDuplicates= arr.filter((value, index, arr) => arr.indexOf(value) === index);
-
-if (withoutDuplicates.length == arr.length) {
+function distinctArr(arr) {
+  let withoutDuplicates = arr.filter((value, index, arr) => arr.indexOf(value) === index);
+  if (withoutDuplicates.length == arr.length) {
     console.log(`No repeating elements`);
-}else{
+  } else {
     console.log(withoutDuplicates.join(` `));
-}
+  }
 
 }
 distinctArr([20, 8, 12, 13, 4, 4, 8, 5]);
