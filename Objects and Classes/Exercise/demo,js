@@ -1,0 +1,6 @@
+let obj= {Coffee: `how`, Buss: `asd`, Boiler: `123`};
+let alfabKeys= Object.keys(obj).sort();
+console.log(alfabKeys);
+for(let key of alfabKeys){
+    console.log(`Term: ${key} => Definition: ${obj[key]}`);
+}
